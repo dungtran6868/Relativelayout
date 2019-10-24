@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <Button
+        android:id="@+id/buttonRed"
+        android:text="Red"
+        android:background="#D32F2F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buttonGreen"
+        android:layout_below="@id/buttonRed"
+        android:text="Green"
+        android:background="#689F38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buttonBlue"
+        android:layout_below="@id/buttonGreen"
+        android:text="Blue"
+        android:background="#0288D1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buttonOrange"
+        android:layout_below="@id/buttonBlue"
+        android:text="Blue"
+        android:background="#F57C00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buttonGray"
+        android:layout_below="@id/buttonBlue"
+        android:text="Gray"
+        android:background="#ADABA8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buttonPink"
+        android:layout_below="@id/buttonGray"
+        android:text="Pink"
+        android:background="#DB437F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
